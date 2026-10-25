@@ -1,0 +1,77 @@
+body{
+    font-family: montserrat, sans-serif;
+    padding: 20px; 
+    background-color: #f4f8f5;
+    color: #2d3748;   
+}
+
+h1,h2{
+    color: #1b4332;
+    margin-bottom: 12px;    
+}
+
+form{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input{
+    padding: 8px 12px;
+    border: 1px solid #b7e4c7;
+    border-radius: 4px;
+    outline: none;  
+}
+
+input:focus{
+    border-color: #40916c;
+}   
+
+button{
+    background: #40916c;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    border-radius: 20px; 
+    cursor: pointer;    
+}
+
+button:hover{
+    background: #2d6a4f;
+    cursor: pointer;
+}   
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,td{
+    padding: 10px;
+    border: 1px solid #b7e4c7;
+    text-align: left;
+}
+
+th{
+    background: #d8f3dc;
+    color : #1b4332;
+}
+
+td button{
+    background: #e63946;
+      color: white;
+      padding: 5px 10px;
+      font-size:13px
+}
+
+td button:hover{
+    background: #9d0208;
+    cursor: pointer;
+}
+
+/* kolorystyka + niektore elementy wygenerowane bo to i tak sam css. 
+najfaniej wyglada przy 133% zoom w przegladarce :d
+pozdrawiam jak pan to czyta */
