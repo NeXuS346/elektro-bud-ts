@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Elektro-Bud - System Hurtowni | FK4P </h1>
+    
+    <hr>
+    <h2>Add Product</h2>
+    <form id="productForm">
+        <div>
+            <label for="ean">Kod ean:</label><br>
+            <input type="text" id="ean" required>
+        </div>
+        <div>
+            <label for="name">Nazwa produktu:</label><br>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="category">Kategoria:</label><br>
+            <input type="text" id="category" required>
+        </div>
+        <div>
+            <label for="sector">Sektor:</label><br>
+            <input type="text" id="sector" required>
+        </div>
+        <div>
+            <label for="shelf">Polka:</label><br>
+            <input type="text" id="shelf" required>
+        </div>
+        <div>
+            <label for="level">Poziom:</label><br>
+            <input type="text" id="level" required>
+        </div>
+        <br>
+        <button type="submit">Dodaj Produkt</button>
+    </form>
+
+    <hr>
+
+    <h2>Lista Produktów w Hurtowni</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Kod ean</th>
+                <th>Nazwa produktu</th>
+                <th>Kategoria</th>
+                <th>Lokalizacja (Sektor / Polka / Poziom)</th>
+                <th>Dzialania</th>
+            </tr>
+        </thead>
+        <tbody id="productTableBody">
+            
+        </tbody>
+    </table>
+
+    <script src="public/main.js"></script>
+</body>
+</html>
